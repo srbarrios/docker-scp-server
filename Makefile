@@ -1,4 +1,4 @@
-IMAGE = schoolscout/scp-server
+IMAGE = srbarrios/scp-server
 
 build:
 		docker build -t ${IMAGE} .
